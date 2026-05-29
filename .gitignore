@@ -1,0 +1,28 @@
+# Binaries
+/vaccine
+/dist/
+
+# Go build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test
+*.test
+*.out
+coverage.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config / secrets
+.env
+.env.local
+*.local.yaml
