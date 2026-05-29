@@ -1,0 +1,27 @@
+{
+  "_comment": "Copy to ~/.vaccine/config.json and fill in. Environment variables override.",
+
+  "vt_api_key": "PUT_YOUR_VIRUSTOTAL_API_KEY_HERE",
+
+  "cache_dir": "",
+  "cache_ttl_hours": 24,
+  "max_file_mb": 100,
+  "vt_rate_seconds": 16,
+
+  "blocklist_paths": [
+    "/Users/me/.vaccine/blocklist.txt"
+  ],
+
+  "whitelist_paths": [
+    "/Users/me/Library",
+    "/System",
+    "/usr/lib"
+  ],
+
+  "urlhaus_feed_url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
+
+  "watch_interval_min": 60,
+
+  "telegram_bot_token": "",
+  "telegram_chat_id": ""
+}

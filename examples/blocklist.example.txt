@@ -1,0 +1,13 @@
+# vaccine — example local blocklist
+#
+# Format: one SHA-256 hex per line (64 chars).
+# Optional description after whitespace.
+# Lines starting with # are comments. Blank lines are ignored.
+#
+# 사용:  ~/.vaccine/config.json 의 blocklist_paths 에 이 파일 경로 추가
+#
+# 예시 (모두 안전 무해 — "hello world" 문자열의 해시) :
+b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9  hello world (placeholder)
+
+# 실전: MalwareBazaar 의 sha256_hash 컬럼 등으로 부터 가져와 추가.
+# https://bazaar.abuse.ch/export/csv/sha256/
